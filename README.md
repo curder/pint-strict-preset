@@ -20,6 +20,14 @@ Pint strict preset is an insanely defensive coding style preset for those who de
             "import_constants": true,
             "import_functions": true
         },
+        "ordered_imports": {
+            "sort_algorithm": "length",
+            "imports_order": [
+                "const",
+                "class",
+                "function"
+            ]
+        },
         "ordered_class_elements": {
             "order": [
                 "use_trait",
