@@ -9,6 +9,9 @@ Pint strict preset is an insanely defensive coding style preset for those who de
 ```json
 {
     "preset": "laravel",
+    "exclude": [
+        "vendor/"
+    ],
     "rules": {
         "array_push": true,
         "backtick_to_shell_exec": true,
