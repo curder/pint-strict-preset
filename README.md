@@ -16,7 +16,6 @@ Pint strict preset is an insanely defensive coding style preset for those who de
         "array_push": true,
         "backtick_to_shell_exec": true,
         "declare_strict_types": true,
-        "final_class": true,
         "fully_qualified_strict_types": true,
         "global_namespace_import": {
             "import_classes": true,
